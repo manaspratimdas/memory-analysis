@@ -1,4 +1,4 @@
-package myappsmem.heapexhaustion;
+package myappsmem.heapexhaustion.lds;
 
 import java.util.ArrayList;
 import java.util.List;

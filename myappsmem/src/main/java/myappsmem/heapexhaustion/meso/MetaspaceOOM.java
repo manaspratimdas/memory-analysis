@@ -1,4 +1,4 @@
-package myappsmem.heapexhaustion;
+package myappsmem.heapexhaustion.meso;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

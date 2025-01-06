@@ -1,4 +1,4 @@
-package myappsmem.heapexhaustion;
+package myappsmem.heapexhaustion.meso;
 
 public class StackOverflowOOM {
 

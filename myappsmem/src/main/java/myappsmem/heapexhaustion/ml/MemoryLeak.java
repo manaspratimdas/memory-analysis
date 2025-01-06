@@ -1,4 +1,4 @@
-package myappsmem.heapexhaustion;
+package myappsmem.heapexhaustion.ml;
 
 import java.util.HashMap;
 import java.util.Map;
