@@ -1,0 +1,43 @@
+[0.039s][info][gc] Using G1
+[0.042s][info][gc,init] Version: 17.0.5+8 (release)
+[0.042s][info][gc,init] CPUs: 8 total, 8 available
+[0.042s][info][gc,init] Memory: 16190M
+[0.042s][info][gc,init] Large Page Support: Disabled
+[0.042s][info][gc,init] NUMA Support: Disabled
+[0.042s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.042s][info][gc,init] Heap Region Size: 1M
+[0.042s][info][gc,init] Heap Min Capacity: 16M
+[0.042s][info][gc,init] Heap Initial Capacity: 16M
+[0.042s][info][gc,init] Heap Max Capacity: 512M
+[0.043s][info][gc,init] Pre-touch: Disabled
+[0.043s][info][gc,init] Parallel Workers: 8
+[0.043s][info][gc,init] Concurrent Workers: 2
+[0.043s][info][gc,init] Concurrent Refinement Workers: 8
+[0.044s][info][gc,init] Periodic GC: Disabled
+[0.044s][info][gc,metaspace] CDS archive(s) not mapped
+[0.044s][info][gc,metaspace] Compressed class space mapped at: 0x0000000100000000-0x0000000140000000, reserved size: 1073741824
+[0.044s][info][gc,metaspace] Narrow klass base: 0x0000000000000000, Narrow klass shift: 3, Narrow klass range: 0x140000000
+[0.222s][info][gc,start    ] GC(0) Pause Young (Concurrent Start) (G1 Humongous Allocation)
+[0.223s][info][gc,task     ] GC(0) Using 2 workers of 8 for evacuation
+[0.224s][info][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.0ms
+[0.224s][info][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[0.224s][info][gc,phases   ] GC(0)   Evacuate Collection Set: 1.2ms
+[0.224s][info][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.2ms
+[0.225s][info][gc,phases   ] GC(0)   Other: 0.5ms
+[0.225s][info][gc,heap     ] GC(0) Eden regions: 1->0(4)
+[0.225s][info][gc,heap     ] GC(0) Survivor regions: 0->1(1)
+[0.225s][info][gc,heap     ] GC(0) Old regions: 0->0
+[0.225s][info][gc,heap     ] GC(0) Archive regions: 0->0
+[0.225s][info][gc,heap     ] GC(0) Humongous regions: 0->0
+[0.225s][info][gc,metaspace] GC(0) Metaspace: 3823K(3968K)->3823K(3968K) NonClass: 3512K(3584K)->3512K(3584K) Class: 310K(384K)->310K(384K)
+[0.225s][info][gc          ] GC(0) Pause Young (Concurrent Start) (G1 Humongous Allocation) 0M->0M(16M) 2.480ms
+[0.225s][info][gc,cpu      ] GC(0) User=0.00s Sys=0.00s Real=0.00s
+[0.225s][info][gc          ] GC(1) Concurrent Undo Cycle
+[0.225s][info][gc,marking  ] GC(1) Concurrent Cleanup for Next Mark
+[0.225s][info][gc,marking  ] GC(1) Concurrent Cleanup for Next Mark 0.287ms
+[0.225s][info][gc          ] GC(1) Concurrent Undo Cycle 0.440ms
+[0.493s][info][gc,heap,exit] Heap
+[0.493s][info][gc,heap,exit]  garbage-first heap   total 406528K, used 392013K [0x00000000e0000000, 0x0000000100000000)
+[0.493s][info][gc,heap,exit]   region size 1024K, 2 young (2048K), 1 survivors (1024K)
+[0.493s][info][gc,heap,exit]  Metaspace       used 3833K, committed 3968K, reserved 1056768K
+[0.493s][info][gc,heap,exit]   class space    used 311K, committed 384K, reserved 1048576K

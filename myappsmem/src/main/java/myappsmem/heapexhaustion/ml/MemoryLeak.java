@@ -19,9 +19,9 @@ public class MemoryLeak {
         try {
             while (true) {
                 // Adding new entries to the map without removing old ones
-            	for (int i=0;i<100000;i++) {
-                leakMap.put(counter, "Value " + counter);
-                }
+//            	for (int i=0;i<100000;i++) {
+//                leakMap.put(counter, "Value " + counter);
+//                }
             	 leakMap.put(counter, "Value " + counter);
                 counter++;
             }
